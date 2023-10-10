@@ -27,6 +27,7 @@ setup(name="pipelinewise-target-snowflake",
           'inflection==0.5.1',
           'joblib==1.2.0',
           'boto3==1.28.20',
+	  'oscrypto @ git+https://github.com/wbond/oscrypto.git#1547f535001ba568b239b8797465536759c742a3',
       ],
       extras_require={
           "test": [
